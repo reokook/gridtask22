@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7</title>
+    <style>
+        .a {
+  display: grid;
+  border: 1px solid black;
+  width: 1050px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+.b {
+  border: 1px solid black;
+  width: 1025px;
+  height: 225px;
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: repeat(2, 20px);
+  justify-content: space-around;
+  gap: 35px;
+}
+.c {
+  display: grid;
+  margin-top: 5px;
+  border: 1px solid rgb(164, 162, 173);
+  width: 80px;
+  height: 35px;
+  background-color: rgb(164, 162, 173);
+  place-content: center center;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="a">
+        <p>Main content</p>
+        <div class="b">
+          <div class="c">grid item 1</div>
+          <div class="c">grid item 2</div>
+          <div class="c">grid item 3</div>
+          <div class="c">grid item 4</div>
+          <div class="c">grid item 5</div>
+          <div class="c">grid item 6</div>
+        </div>
+      </div>
+</body>
+</html>
